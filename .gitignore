@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+cmake-build-*/
+bin/
+*.o
+*.so
+
+# Model weights & binaries
+models/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# System & temporary files
+.DS_Store
+Thumbs.db
+*.log
+.venv/

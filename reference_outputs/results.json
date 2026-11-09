@@ -1,0 +1,66 @@
+[
+  {
+    "model": "qwen3-0.6b-int4-ov",
+    "scenario_id": "scenario_en_colors",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["Okay, the user is asking for a list of 5 primary colors separated by commas. Let me start by recalling the primary colors in the traditional color wheel. The primary colors are red, blue, and yellow, right? But wait, there's also green and orange. Oh, right, in the traditional color wheel, the primary colors are red, blue, and yellow. But maybe the user is thinking of the traditional color wheel, so those three. But maybe they want it in a different way. Let me think. The primary colors in the traditional color wheel are red, blue, and yellow. So that's"],
+    "prompt_token_ids": [[852,220,20,6028,7987,18663,553,76602,13]],
+    "reply_token_ids": [[32313,11,279,1196,374,10161,369,264,1140,315,220,20,6028,7987,18663,553,76602,13,6771,752,1191,553,88646,279,6028,7987,304,279,8606,1894,13284,13,576,6028,7987,525,2518,11,6303,11,323,13753,11,1290,30,1988,3783,11,1052,594,1083,6176,323,18575,13,8670,11,1290,11,304,279,8606,1894,13284,11,279,6028,7987,525,2518,11,6303,11,323,13753,13,1988,7196,279,1196,374,7274,315,279,8606,1894,13284,11,773,1846,2326,13,1988,7196,807,1366,432,304,264,2155,1616,13,6771,752,1744,13,576,6028,7987,304,279,8606,1894,13284,525,2518,11,6303,11,323,13753,13,2055,429,594]]
+  },
+  {
+    "model": "qwen3-0.6b-int4-ov",
+    "scenario_id": "scenario_ru_colors",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["Хорошо! Нужен ли мне больше информации?"],
+    "prompt_token_ids": [[20195,18671,6715,1802,220,20,126068,43686,129596,6715,129334,29789,89197,33048,13]],
+    "reply_token_ids": [[129942,125234,12150,1456,0,34789,55899,5259,58095,129075,129258,135074,30]]
+  },
+  {
+    "model": "qwen3-0.6b-int4-ov",
+    "scenario_id": "scenario_emoji",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["Okay, the user is asking about the meaning of the emoji 🚀. Let me think about this. First, I need to confirm if this is a common or specific emoji. The question is in English, so I should use the correct emoji names. The emoji is a symbol for a car, so it's a car emoji. The question is asking about the meaning, so I should explain that it's a car symbol. But maybe the user is not sure about the meaning. I should check if there's any other meaning. But since it's a car symbol, it's straightforward. So the answer should be that"],
+    "prompt_token_ids": [[3838,1558,419,42365,3076,25,11162,248,222,30]],
+    "reply_token_ids": [[32313,11,279,1196,374,10161,911,279,7290,315,279,42365,11162,248,222,13,6771,752,1744,911,419,13,5512,11,358,1184,311,7683,421,419,374,264,4185,476,3151,42365,13,576,3405,374,304,6364,11,773,358,1265,990,279,4396,42365,5036,13,576,42365,374,264,7735,369,264,1803,11,773,432,594,264,1803,42365,13,576,3405,374,10161,911,279,7290,11,773,358,1265,10339,429,432,594,264,1803,7735,13,1988,7196,279,1196,374,537,2704,911,279,7290,13,358,1265,1779,421,1052,594,894,1008,7290,13,1988,2474,432,594,264,1803,7735,11,432,594,30339,13,2055,279,4226,1265,387,429]]
+  },
+  {
+    "model": "qwen3-0.6b-int4-ov",
+    "scenario_id": "scenario_recall_memory",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["The user wrote: \"Remember this exact secret word: 'Cobalt'. Reply with 'ACK' only.\" So they're saying that the secret word is \"Cobalt\" and they want me to respond with \"ACK\". But wait, the user is probably testing if I'm following the correct instructions. Let me think about the correct way to respond", "First, the user says: \"Remember this exact secret word: 'Cobalt'. Reply with 'ACK' only.\" So they're giving me the word \"Cobalt\" and then asking me to respond with \"ACK\". But then the next line says, \"What was the exact secret word I asked you to remember"],
+    "prompt_token_ids": [[28590,419,4734,6234,3409,25,364,34,674,3145,4427,17841,448,364,4032,6,1172,13], [3838,572,279,4734,6234,3409,358,4588,498,311,6099,30]],
+    "reply_token_ids": [[785,1196,6139,25,330,28590,419,4734,6234,3409,25,364,34,674,3145,4427,17841,448,364,4032,6,1172,1189,2055,807,2299,5488,429,279,6234,3409,374,330,34,674,3145,1,323,807,1366,752,311,5889,448,330,4032,3263,1988,3783,11,279,1196,374,4658,7497,421,358,2776,2701,279,4396,11221,13,6771,752,1744,911,279,4396,1616,311,5889], [5338,11,279,1196,2727,25,330,28590,419,4734,6234,3409,25,364,34,674,3145,4427,17841,448,364,4032,6,1172,1189,2055,807,2299,7086,752,279,3409,330,34,674,3145,1,323,1221,10161,752,311,5889,448,330,4032,3263,1988,1221,279,1790,1555,2727,11,330,3838,572,279,4734,6234,3409,358,4588,498,311,6099]]
+  },
+  {
+    "model": "llama-3.2-1b-int4-ov",
+    "scenario_id": "scenario_en_colors",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["Here are 5 primary colors separated by commas:\n\nRed, Blue, Yellow, Green, Purple"],
+    "prompt_token_ids": [[128000,861,220,20,6156,8146,19180,555,77702,13]],
+    "reply_token_ids": [[128000,8586,527,220,20,6156,8146,19180,555,77702,1473,6161,11,8868,11,26541,11,7997,11,41489]]
+  },
+  {
+    "model": "llama-3.2-1b-int4-ov",
+    "scenario_id": "scenario_ru_colors",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["1. Синий\n2. Зеленый\n3. Белый\n4. Родийный (или жёлтый)\n5. Красный"],
+    "prompt_token_ids": [[128000,20807,19188,104488,220,20,126484,103871,6856,102458,30889,90297,34148,13]],
+    "reply_token_ids": [[128000,16,13,28599,19479,44938,198,17,13,53677,103935,35723,198,18,13,117154,35723,198,19,13,119329,44938,34613,320,101134,58317,114046,127323,340,20,13,115646,34613]]
+  },
+  {
+    "model": "llama-3.2-1b-int4-ov",
+    "scenario_id": "scenario_emoji",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["The emoji 🚀 represents a rocket ship. It's often used to convey excitement, space exploration, or a sense of adventure."],
+    "prompt_token_ids": [[128000,3923,1587,420,43465,3152,25,11410,248,222,30]],
+    "reply_token_ids": [[128000,791,43465,11410,248,222,11105,264,25294,8448,13,1102,596,3629,1511,311,20599,28361,11,3634,27501,11,477,264,5647,315,18427,13]]
+  },
+  {
+    "model": "llama-3.2-1b-int4-ov",
+    "scenario_id": "scenario_recall_memory",
+    "parameters": {"max_new_tokens": 128, "do_sample": false, "temperature": 0.0},
+    "replies": ["ACK", "The exact secret word you asked me to remember is: 'Cobalt'."],
+    "prompt_token_ids": [[128000,29690,420,4839,6367,3492,25,364,34,677,3223,4527,18321,449,364,4122,6,1193,13], [128000,3923,574,279,4839,6367,3492,358,4691,499,311,6227,30]],
+    "reply_token_ids": [[128000,4122], [128000,791,4839,6367,3492,499,4691,757,311,6227,374,25,364,34,677,3223,4527]]
+  }
+]
